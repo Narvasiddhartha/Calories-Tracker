@@ -1,6 +1,6 @@
 [build]
-  publish = "web-build"
-  command = "npx expo export:web"
+  publish = "dist"
+  command = "expo export -p web"
 
 [[redirects]]
   from = "/*"

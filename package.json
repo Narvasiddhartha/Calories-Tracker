@@ -10,7 +10,7 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "build": "npx expo export:web",
+    "build": "expo export -p web",
     "deploy": "npm run build && netlify deploy --prod"
   },
   "jest": {
